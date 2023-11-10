@@ -1,13 +1,13 @@
-import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
     <nav>
       <ul>
-        <li>About Me</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        <li>Resume</li>
+        <li><NavLink to="/">About Me</NavLink></li>
+        <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink to="/resume">Resume</NavLink></li>
       </ul>
     </nav>
   );

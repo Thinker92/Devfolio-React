@@ -1,11 +1,14 @@
-import React from 'react';
 import Navigation from './Navigation'
 
 function Header(){
     return (
         <header>
-            <h1>Vilson Apostolovski II</h1>
-            <Navigation />
+            <div className='header-nav'>
+                <Navigation />
+            </div>
+            <div className="header-name">
+                <h2>Vilson Apostolovski II</h2>
+            </div>
         </header>
     );
 }
