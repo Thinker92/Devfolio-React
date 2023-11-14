@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'; 
 import './Portfolio.css'
 import weatherRepoImage from '../assets/images/weatherRepo.png';
-import pwGeneratorImage from '../assets/images/pw-Generator.png';
+import pwGeneratorImage from '../assets/images/pwgenerator.png';
 import readmeCreatorImage from '../assets/images/readmeCreator.png'
 import noteTakerImage from '../assets/images/noteTaker.png'
 import employeeTrackerImage from '../assets/images/employeeTracker.png'
