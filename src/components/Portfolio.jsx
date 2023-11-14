@@ -12,9 +12,11 @@ const Project = ({ title, description, imageUrl, githubLink, liveUrl }) => {
         <img className="project-image" src={imageUrl} alt={title} />
         <h3>{title}</h3>
         <p>{description}</p>
-        <a href={liveUrl} target="_blank" rel="noopener noreferrer">
-            Live Link
-        </a>
+        {liveUrl && (
+                <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+                    Live Link
+                </a>
+            )}
         <br></br>
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
           View on GitHub

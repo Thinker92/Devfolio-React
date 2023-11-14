@@ -18,10 +18,11 @@ function AboutMe() {
       </aside>
       <section className="main-content">
         <div className="card about-me">
-          <p>Write an about me section here!</p>
+          <p>I am driven by a deep-seated passion for solving complex problems and an ability to adapt to new challenges with ease. Leveraging expertise in Excel VBA and Python for data science, I excel at delivering data-driven insights and automations that enhance productivity and decision making. My journey into web development is marked by an expanding knowledge of the MERN stack, where I am actively honing my skills to build responsive and dynamic web applications</p>
           
-          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/vilson-apostolovski-ii-59212052/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <br />
+          <a href="https://github.com/Thinker92" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </section>
     </div>
