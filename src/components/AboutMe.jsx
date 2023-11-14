@@ -1,11 +1,12 @@
 import './AboutMe.css';
+import headshot from '../assets/images/headshot.jpg';
 
 function AboutMe() {
   return (
     <div className="about-container">
       <aside className="sidebar">
         <div className="card personal-details">
-          {/* <img src="path-to-selfie.jpg" alt="Vilson Apostolovski" /> */}
+          <img src={headshot} alt="Vilson Apostolovski" />
           <h2>Vilson Apostolovski II</h2>
           <p>vilsonapo@me.com</p>
           <ul className="skills-list">
