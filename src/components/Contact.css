@@ -1,0 +1,55 @@
+.contact-me-container {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* Change as per your color scheme */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Spacing between each form field */
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group label {
+    width: 30%; /* Adjust label width as needed */
+    margin-right: 50px;
+    text-align: right;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 80%; /* Input field width */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Adjust button color as needed */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    height: 1em; /* Keep a consistent height even if there's no error */
+  }
+  

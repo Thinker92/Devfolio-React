@@ -1,0 +1,45 @@
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 1rem;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a.active {
+  color: #ff0000;
+}
+

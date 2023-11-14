@@ -1,0 +1,30 @@
+.about-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 25%;
+  }
+  
+  .main-content {
+    width: 75%;
+  }
+  
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  }
+  
+  .personal-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
